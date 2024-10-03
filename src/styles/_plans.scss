@@ -1,0 +1,21 @@
+.plans {
+    padding: 5.6vw;
+
+    h2 {
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+
+        &__item {
+            text-align: center;
+
+            strong {
+                display: block;
+            }
+        }
+    }
+}
